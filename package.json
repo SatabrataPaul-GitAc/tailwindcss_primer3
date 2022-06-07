@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss_primer3",
+  "version": "1.0.0",
+  "description": "Tailwindcss code for frontendmentor.io challenge",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "web",
+    "webdesign",
+    "frontend"
+  ],
+  "author": "Satabrata Paul",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
